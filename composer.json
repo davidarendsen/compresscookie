@@ -1,0 +1,13 @@
+{
+    "name": "davidarendsen/compresscookie",
+    "description": "Compress and uncompress cookies",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Arendsen",
+            "email": "davidarendsen@gmail.com"
+        }
+    ],
+    "require": {}
+}
