@@ -10,4 +10,11 @@
         }
     ],
     "require": {}
+    "autoload": {
+        "psr-0": {
+            "CompressCookie": "/"
+        }
+    }
+
 }
+
