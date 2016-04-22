@@ -3,6 +3,8 @@
 ## Example usage
 
 ```
+use DavidArendsen\CompressCookie\CompressCookie;
+
 $compresscookie = new CompressCookie;
 $compresscookie->setcookie('cookie-string', 'This is a string');
 $compresscookie->setcookie('cookie-array', ['This is an array']);
