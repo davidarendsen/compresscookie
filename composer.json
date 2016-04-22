@@ -11,8 +11,8 @@
     ],
     "require": {},
     "autoload": {
-        "psr-0": {
-            "davidarendsen\\CompressCookie\\": ""
+        "psr-4": {
+            "DavidArendsen\\CompressCookie\\": ""
         }
     }
 
