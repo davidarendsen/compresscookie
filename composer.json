@@ -9,7 +9,7 @@
             "email": "davidarendsen@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
     "autoload": {
         "psr-0": {
             "CompressCookie\\": "src/"
