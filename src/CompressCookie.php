@@ -1,6 +1,6 @@
 <?php
 
-namespace davidarendsen\CompressCookie;
+namespace CompressCookie;
 
 /**
  * @package CompressCookie
