@@ -12,10 +12,11 @@ class CompressCookie
     /**
      * @param string $label Set key for the cookie
      * @param mixed|bool $content The content for the cookie
+     * @param integer $expire Seconds for the cookie to expire
      */
-    public function setcookie($label, $content)
+    public function setcookie($label, $content, $expire = 3600)
     {
-        setcookie($label, $this->compress($content), time()+3600, '/');
+        setcookie($label, $this->compress($content), time() + $expire, '/');
     }
 
     /**
